@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/smart-city-wuhan/', // ← 加这一行
   plugins: [vue()],
   resolve: {
     alias: {
